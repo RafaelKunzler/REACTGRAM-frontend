@@ -27,7 +27,7 @@ form {
 
 label {
   display: flex;
-  fles-direction: column;
+  flex-direction: column;
   text-align: left;
 }
 

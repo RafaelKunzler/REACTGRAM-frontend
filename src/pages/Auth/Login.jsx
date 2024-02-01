@@ -34,7 +34,7 @@ const Login = () => {
   // Clean all auth state
   useEffect(() => {
     dispatch(reset())
-  }, dispatch)
+  }, [dispatch])
 
   return (
     <div id="login">
